@@ -1,0 +1,31 @@
+{
+  "name": "chess-game-engine-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node main.js",
+    "start:dev": "cross-env NODE_ENV=development nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aram47/Test-Chess-Game-Engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Aram47/Test-Chess-Game-Engine/issues"
+  },
+  "homepage": "https://github.com/Aram47/Test-Chess-Game-Engine#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0",
+    "nodemon": "^3.1.11",
+    "redis": "^5.10.0"
+  }
+}
