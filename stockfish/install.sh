@@ -1,4 +1,3 @@
-cd ./stockfish
 wget https://github.com/official-stockfish/Stockfish/archive/refs/tags/sf_15.1.tar.gz
 tar -xf ./sf_15.1.tar.gz
 rm -f ./sf_15.1.tar.gz
