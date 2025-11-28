@@ -3,7 +3,7 @@
  */
 
 import { spawn } from 'child_process'
-import { StockfishCommands, StockfishResponse } from '../constants/stockfishContstants';
+import { StockfishCommands, StockfishResponse } from '../constants/stockfishContstants.js';
 
 
 export default class Stockfish {
